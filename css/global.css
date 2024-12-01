@@ -1,0 +1,59 @@
+@import url(stale.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #212529;
+  line-height: 24px;
+}
+
+main {
+  flex-grow: 1;
+}
+.container {
+  width: 100%;
+  max-width: 1340px;
+  padding: 0 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.small-suptitle {
+  color: #a6a6a6;
+  line-height: 19.2px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.btn {
+  background-color: #000000;
+  color: #fff;
+  padding: 12px 32px 11px 32px;
+  border-radius: 25px;
+  font-size: 15px;
+  line-height: 19.5px;
+  &:hover {
+    opacity: 60%;
+  }
+  &:active {
+    opacity: 60%;
+  }
+}

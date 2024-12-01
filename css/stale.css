@@ -1,0 +1,311 @@
+@import url(global.css);
+
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v32-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* HEADER START */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.menu-link {
+  color: #000000;
+  font-size: 15px;
+  line-height: 22.5px;
+  &:hover {
+    opacity: 60%;
+  }
+  &:active {
+    opacity: 60%;
+  }
+}
+
+/* HEADER END */
+/* HERO START */
+
+.hero-container {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.hero-title {
+  width: 100%;
+  max-width: 554px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 64px;
+  line-height: 76.8px;
+  margin-bottom: 23px;
+  color: #000000;
+}
+.hero-discription {
+  width: 100%;
+  max-width: 717px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: #212529;
+  margin-bottom: 36px;
+}
+
+.btn-hero {
+  margin-left: 4px;
+  background-color: #fff;
+  color: #000000;
+  border: 1px solid #000;
+}
+/* HERO END */
+
+/* OFFER START */
+
+.offer-top {
+  justify-content: space-between;
+  max-width: 1028px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+  margin-bottom: 40px;
+}
+.offer-items {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.offer-item {
+  color: #686868;
+}
+.offer-bottom {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 69.89px;
+}
+
+/* OFFER END */
+/* INTRODUCING START */
+
+.introducing-container {
+  margin-bottom: 100px;
+}
+
+.introducing-title {
+  width: 100%;
+  max-width: 1012px;
+  font-size: 61px;
+  line-height: 73.2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90.11px;
+}
+.introducing-img {
+  padding-left: 227px;
+  padding-right: 226px;
+}
+/* INTRODUCING end */
+/* delivery start */
+
+.delivery-container {
+  margin-top: 35.16px;
+  margin-bottom: 115px;
+}
+
+.delivery-title {
+  font-size: 61px;
+  line-height: 73.2px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 525px;
+  margin-bottom: 95.16px;
+}
+.delivery-list {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.delivery-items-img {
+  margin-bottom: 40.16px;
+}
+.delivery-items-content {
+  width: 100%;
+  max-width: 393.33px;
+
+  align-items: center;
+}
+.delivery-items-title {
+  width: 100%;
+  max-width: 323px;
+  color: #000000;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+.delivery-items-description {
+  width: 100%;
+  max-width: 388px;
+}
+/* delivery end */
+/* tracking start */
+.tracking {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.tracking-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.tracking-title {
+  font-size: 61px;
+  line-height: 73.2px;
+  color: #000000;
+  max-width: 469px;
+  margin-bottom: 23px;
+}
+.tracking-description {
+  max-width: 517px;
+  margin-bottom: 16px;
+}
+/* tracking end */
+/* Marketing start */
+.marceting {
+  text-align: center;
+}
+
+.marceting-title {
+  margin-bottom: 19.02px;
+  font-size: 61px;
+  line-height: 73.2px;
+  color: #000000;
+}
+.marceting-description {
+  margin-bottom: 12px;
+  width: 100%;
+  text-align: center;
+  min-width: 510px;
+  height: 48px;
+}
+.topic {
+  margin-bottom: 25px;
+}
+
+.marceting-img {
+  margin-bottom: 100.19px;
+}
+/* Marketing end */
+/* FAQ`s start */
+.faq-container {
+  width: 100%;
+  max-width: 1058.33px;
+  margin-bottom: 90px;
+}
+
+.faq-title {
+  font-size: 61px;
+  line-height: 73.2px;
+  color: #000;
+  margin-bottom: 24.19px;
+  text-align: center;
+}
+.faq-list {
+  margin-top: 40px;
+}
+.faq-items {
+  width: 750px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.faq-quesition {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 27px;
+  margin-top: 16px;
+}
+.question {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.divider {
+  border: 1px solid #000000;
+}
+/*  FAQ`s end  */
+/* ADVICE START */
+
+.advice-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 204px;
+}
+
+.advice-small-suptitle {
+  text-align: start;
+}
+.advice-title {
+  width: 447px;
+  font-size: 61px;
+  line-height: 73.2px;
+  margin-bottom: 19px;
+  color: #000;
+}
+.advice-description {
+  width: 510px;
+  margin-bottom: 16px;
+}
+/* ADVICE end */
+/* FOOTER START */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+
+.footer-content-link {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 192px;
+  color: #a6a6a6;
+}
+.time {
+  color: #a6a6a6;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 90px;
+}
+
+.white-link {
+  color: #a6a6a6;
+}
+.footer-item {
+  color: #000;
+}
+/* FOOTER END */
